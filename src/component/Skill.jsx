@@ -33,7 +33,7 @@ const Skill = () => {
       </div>
 
       {/* Right Section: Image */}
-      <div className="md:w-1/2 w-full mt-8 md:mt-0 flex justify-center">
+      <div className="md:w-1/2 hidden w-full mt-8 md:mt-0 md:flex justify-center">
         <img
           src="new.jpg"
           alt="Illustration"

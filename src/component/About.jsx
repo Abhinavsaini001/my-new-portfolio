@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className="flex flex-col md:flex-row items-center justify-center min-h-screen px-8 py-16 bg-[#202327] text-white">
       {/* Image Section */}
       <div className="md:w-2/5 w-full max-w-sm mb-12 md:mb-0">
-        <div className="rounded-xl overflow-hidden shadow-lg bg-[#292b2e]">
+        <div className="rounded-xl hidden md:block overflow-hidden shadow-lg bg-[#292b2e]">
           <img 
             className="w-full h-auto" 
             src="about.png" 
